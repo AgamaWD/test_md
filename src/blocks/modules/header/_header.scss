@@ -1,0 +1,13 @@
+.ap-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: vw(24) 0 vw(22);
+    background-color: $c-white;
+    z-index: 50;
+    &__container {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

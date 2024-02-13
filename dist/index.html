@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>test MD</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <!--mixins-->
+    <header class="site-header ap-header" data-anim-name="header">
+      <div class="ap-container ap-header__container">
+            <button class="btn btn--link btn--transparent ap-header__btn" type="button" data-hystmodal="#callbackModal"><span class="btn__text">Заказать звонок</span>
+            </button>
+      </div>
+    </header>
+    <main class="site-main">
+      <!--content-->
+      <div class="about-page" data-anim-name="animContainer">
+        <div class="wrapper" data-anim-section data-anim-id="0">
+          <section class="ap-main-screen" data-anim-content>
+            <div class="ap-container ap-main-screen__container">
+                  <div class="breadcrumbs">
+                    <div class="container">
+                      <ul class="breadcrumbs__list list-reset">
+                        <li class="breadcrumbs__item"><a href="#">Главная /</a>
+                        </li>
+                        <li class="breadcrumbs__item breadcrumbs__item--current"><span>О компании</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h1 class="ap-main-screen__title ap-main-screen__title" data-anim-name="mainTitle">SKY FISH</h1>
+              <div class="ap-main-screen__text" data-anim-name="mainScreenText">Привозим, продаём,<br>перерабатываем<br>и знаем о рыбе всё</div>
+            </div>
+          </section>
+        </div>
+        <div class="wrapper" data-anim-section data-anim-id="1">
+          <section class="ap-history" data-anim-content>
+            <div class="ap-container ap-history__container"><a class="btn btn--big btn--blue " href="javascript:void(0);" data-hystmodal="#historyModal"><span class="btn__text">История компании</span><span class="btn__icon">
+                      <svg>
+                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                      </svg></span></a>
+              <div class="ap-history__text">Группа компаний, поставляющая рыбу и морепродукты на российский рынок из 11 стран, <span>осуществляющая производственный комплекс по переработке и фасовке рыбы, активно реализующая продукцию от Калининграда до любого города Российской Федерации.</span></div>
+            </div>
+          </section>
+        </div>
+        <div class="wrapper" data-anim-section data-anim-id="2">
+          <section class="ap-advantages" data-anim-content>
+            <div class="ap-advantages__video">
+              <video autoplay loop preload muted poster="../../../../img/about-page/ap_advantages_bg.png">
+                <source src="../../../../video/ap_advantages_bg.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                <source src="../../../../video/ap_advantages_bg.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+              </video>
+            </div>
+                <h2 class="ap-advantages__title ap-advantages__title">наши преимущества</h2>
+            <div class="ap-advantages__cards">
+              <div class="ap-advantages__column ap-advantages__column--1">
+                          <div class="ap-advantages-card ap-advantages-card--black">
+                            <div class="ap-advantages-card__text">11 стран из которых поставляем рыбу и морепродукты</div>
+                          </div>
+                          <div class="ap-advantages-card ap-advantages-card--black">
+                            <div class="ap-advantages-card__text">Участник «Ассоциации производственных и торговых предприятий рыбного рынка» и «Рыбного Союза»</div>
+                          </div>
+              </div>
+              <div class="ap-advantages__column ap-advantages__column--2">
+                          <div class="ap-advantages-card ap-advantages-card--white">
+                            <div class="ap-advantages-card__text">20+ лет опыта работы на рыбном рынке</div>
+                          </div>
+                          <div class="ap-advantages-card ap-advantages-card--white">
+                            <div class="ap-advantages-card__text">Собственное производство</div>
+                          </div>
+              </div>
+              <div class="ap-advantages__column ap-advantages__column--3">
+                          <div class="ap-advantages-card ap-advantages-card--blue">
+                            <div class="ap-advantages-card__text">сбалансированный ассортимент до самых востребованных  наименований на рынке</div>
+                          </div>
+                          <div class="ap-advantages-card ap-advantages-card--blue">
+                            <div class="ap-advantages-card__text">партнер всероссийского благотворительного фонда  «Спорт начинается с детей»</div>
+                          </div>
+                          <div class="ap-advantages-card ap-advantages-card--blue">
+                            <div class="ap-advantages-card__text">собственный холодильный комплекс и автопарк</div>
+                          </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="wrapper" data-anim-section data-anim-id="3">
+                <section class="ap-divided ap-divided--right " data-anim-content>
+                  <div class="ap-divided__img"><img src="/img/about_page/ap_production.png" alt="Наше производство"></div>
+                  <div class="ap-divided__info"> 
+                        <h2 class="ap-divided__title ap-divided__title">Наше производство</h2>
+                    <div class="ap-divided__text">Компания запустила собственное производство по переработке и фасовке рыбы в 2007 году. Производственная мощность 350 тонн готовой продукции в месяц.</div>
+                    <div class="ap-divided__btns"><a class="btn btn--big btn--blue " href="javascript:void(0);"><span class="btn__text">Подробнее</span><span class="btn__icon">
+                              <svg>
+                                <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                              </svg></span></a><a class="btn btn--big btn--black " href="javascript:void(0);"><span class="btn__text">Посмотреть фото</span><span class="btn__icon">
+                              <svg>
+                                <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                              </svg></span></a>
+                    </div>
+                  </div>
+                </section>
+        </div>
+        <div class="wrapper" data-anim-section data-anim-id="4">
+                <section class="ap-divided ap-divided--left " data-anim-content>
+                  <div class="ap-divided__img"><img src="/img/about_page/ap_logistics.png" alt="Наша логистика"></div>
+                  <div class="ap-divided__info"> 
+                        <h2 class="ap-divided__title ap-divided__title">Наша логистика</h2>
+                    <div class="ap-divided__text">Наши складские комплексы расположены в Москве, Калужской и Калининградской областях. Склады оснащены необходимыми морозильными камерами и погрузочно-разгрузочной техникой.</div>
+                    <div class="ap-divided__btns"><a class="btn btn--big btn--blue " href="javascript:void(0);"><span class="btn__text">Подробнее</span><span class="btn__icon">
+                              <svg>
+                                <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                              </svg></span></a><a class="btn btn--big btn--white " href="javascript:void(0);"><span class="btn__text">Посмотреть фото</span><span class="btn__icon">
+                              <svg>
+                                <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                              </svg></span></a>
+                    </div>
+                  </div>
+                </section>
+        </div>
+        <div class="wrapper" data-anim-section data-anim-id="5">
+                <section class="ap-divided ap-divided--right ap-divided--society" data-anim-content>
+                  <div class="ap-divided__img"><img src="/img/about_page/ap_society.png" alt="Мы в социуме"></div>
+                  <div class="ap-divided__info"> 
+                        <h2 class="ap-divided__title ap-divided__title">Мы в социуме</h2>
+                    <div class="ap-divided__text">В нашей компании принято за основу - мы живем в социуме, ведь работаем с людьми.  У нас есть список мероприятий где мы были запечатлены.</div>
+                    <div class="ap-divided__btns"><a class="btn btn--big btn--black " href="javascript:void(0);"><span class="btn__text">Подробнее</span><span class="btn__icon">
+                              <svg>
+                                <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                              </svg></span></a>
+                    </div>
+                  </div>
+                </section>
+        </div>
+        <div class="wrapper" data-anim-section data-anim-id="6">
+          <section class="ap-career" data-anim-content>
+            <div class="ap-container">
+              <div class="ap-career__info">
+                    <h2 class="ap-career__title ap-career__title">Карьера в Sky Fish</h2><a class="btn btn--big btn--blue " href="javascript:void(0);"><span class="btn__text">Подробнее</span><span class="btn__icon">
+                        <svg>
+                          <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                        </svg></span></a>
+                <div class="ap-career__wrapper">
+                  <div class="ap-career__text">Мы быстрорастущая и инновационная компания, которая меняет представление о том, как должна выглядеть успешная карьера. Мы стремимся создавать среду, где каждый сотрудник может раскрыть свой потенциал и достичь новых высот.</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="wrapper" data-anim-section data-anim-id="7">
+          <!--blocks-->
+          <!--components-->
+          <section class="ap-team" data-anim-content>
+            <div class="ap-container">
+                        <h2 class="ap-team__title ap-team__title">Наша команда</h2>
+            </div>
+            <div class="ap-team__cards">
+              <div class="ap-team__column ap-team__column--1">
+                          <div class="ap-team-card ap-team-card--black">
+                            <div class="ap-team-card__name">Елецкий Андрей</div>
+                            <div class="ap-team-card__position">Генеральный директор</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Елецкий Андрей"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--blue " type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--black">
+                            <div class="ap-team-card__name">Соловьев Владислав</div>
+                            <div class="ap-team-card__position">Коммерческий директор</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Соловьев Владислав"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--blue " type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--black">
+                            <div class="ap-team-card__name">Косырева Наталья</div>
+                            <div class="ap-team-card__position">Финансовый директор</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Косырева Наталья"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--blue " type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--black">
+                            <div class="ap-team-card__name">Кашецкий Юрий</div>
+                            <div class="ap-team-card__position">Руководитель отдела маркетинга</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Кашецкий Юрий"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--blue " type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+              </div>
+              <div class="ap-team__column ap-team__column--2">
+                          <div class="ap-team-card ap-team-card--white">
+                            <div class="ap-team-card__name">Гришин Дмитрий</div>
+                            <div class="ap-team-card__position">Руководитель отдела IT</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Гришин Дмитрий"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--blue " type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--white">
+                            <div class="ap-team-card__name">Лазин Петр</div>
+                            <div class="ap-team-card__position">Руководитель отдела ВЭД</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Лазин Петр"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--blue " type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--white">
+                            <div class="ap-team-card__name">Алтухов Сергей</div>
+                            <div class="ap-team-card__position">Директор производства</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Алтухов Сергей"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--blue " type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--white">
+                            <div class="ap-team-card__name">Лондарова Марина</div>
+                            <div class="ap-team-card__position">Руководитель отдела доставки</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Лондарова Марина"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--blue " type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--white">
+                            <div class="ap-team-card__name">Хохлов Дмитрий</div>
+                            <div class="ap-team-card__position">Руководитель склада в Маланьино</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Хохлов Дмитрий"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--blue " type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+              </div>
+              <div class="ap-team__column ap-team__column--3">
+                          <div class="ap-team-card ap-team-card--blue">
+                            <div class="ap-team-card__name">Муравьев Павел</div>
+                            <div class="ap-team-card__position">Руководитель представительства в Калининграде</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Муравьев Павел"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--white ap-team-card__btn" type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--blue">
+                            <div class="ap-team-card__name">Соловьева Анастасия</div>
+                            <div class="ap-team-card__position">Руководитель склада в Москве</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Соловьева Анастасия"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--white ap-team-card__btn" type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--blue">
+                            <div class="ap-team-card__name">Чугунов Владимир</div>
+                            <div class="ap-team-card__position">Руководитель отдела закупок</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Чугунов Владимир"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--white ap-team-card__btn" type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--blue">
+                            <div class="ap-team-card__name">Бочарова Наталья</div>
+                            <div class="ap-team-card__position"> Руководитель отдела кадров</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Бочарова Наталья"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--white ap-team-card__btn" type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+                          <div class="ap-team-card ap-team-card--blue">
+                            <div class="ap-team-card__name">Франц Эдвард</div>
+                            <div class="ap-team-card__position">Юрист</div>
+                            <div class="ap-team-card__photo"> <img src="img/about_page/employee_photo.png" alt="Франц Эдвард"></div>
+                            <div class="ap-team-card__flexblock"> 
+                              <div class="ap-team-card__contacts"> 
+                                <div class="ap-team-card__phone contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#envelope"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">+7 (4922) 44-11-11</div>
+                                </div>
+                                <div class="ap-team-card__email contact">
+                                  <div class="contact__icon">
+                                    <svg>
+                                      <use xlink:href="img/sprites/sprite.svg#handset"></use>
+                                    </svg>
+                                  </div>
+                                  <div class="contact__text">log@skyfish.ru</div>
+                                </div>
+                              </div>
+                                  <button class="btn btn--icon btn--white ap-team-card__btn" type="button" data-hystmodal="#teamCardModal"><span class="btn__icon">
+                                      <svg>
+                                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                                      </svg></span>
+                                  </button>
+                            </div>
+                          </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="wrapper" data-anim-section data-anim-id="8">
+          <section class="ap-offer" data-anim-content>
+            <div class="ap-container ap-offer__container">
+                        <h2 class="ap-offer__title ap-offer__title">Стать частью компании SkyFish</h2><a class="btn btn--big btn--white " href="javascript:void(0);"><span class="btn__text">Откликнуться</span><span class="btn__icon">
+                      <svg>
+                        <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                      </svg></span></a>
+              <div class="ap-offer__wrapper">
+                <div class="ap-offer__text">Мы регулярно расширяем состав компании</div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!--modals-->
+          <div class="hystmodal ap-modal ap-history-modal" id="historyModal" aria-hidden="true">
+            <div class="hystmodal__wrap">
+              <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <div class="ap-modal__content">
+                      <button class="btn btn--icon btn--white ap-modal__close" type="button" data-hystclose><span class="btn__icon">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#close"></use>
+                          </svg></span>
+                      </button>
+                  <div class="ap-history-modal__item">
+                    <div class="ap-history-modal__decor"></div>
+                    <div class="ap-history-modal__year">2001</div>
+                    <div class="ap-history-modal__text">Cоздание компании</div>
+                  </div>
+                  <div class="ap-history-modal__item">
+                    <div class="ap-history-modal__decor"></div>
+                    <div class="ap-history-modal__year">2007</div>
+                    <div class="ap-history-modal__text">Запуск собственного производства по переработке и фасовке рыбы (ООО «Рыбные продукты»)</div>
+                  </div>
+                  <div class="ap-history-modal__item">
+                    <div class="ap-history-modal__decor"></div>
+                    <div class="ap-history-modal__year">2012</div>
+                    <div class="ap-history-modal__text">Создание торговой <br>марки SKY FISH</div>
+                  </div>
+                  <div class="ap-history-modal__item">
+                    <div class="ap-history-modal__decor"></div>
+                    <div class="ap-history-modal__year">2019</div>
+                    <div class="ap-history-modal__text">Открыто представительство в Калининграде <br>под торговой маркой «ZapFish»</div>
+                  </div>
+                  <div class="ap-history-modal__item">
+                    <div class="ap-history-modal__decor"></div>
+                    <div class="ap-history-modal__year">2020</div>
+                    <div class="ap-history-modal__text">Расширение компании и переезд в дизайнерский <br>головной офис в Москве</div>
+                  </div>
+                  <div class="ap-history-modal__item">
+                    <div class="ap-history-modal__decor"></div>
+                    <div class="ap-history-modal__year">2023</div>
+                    <div class="ap-history-modal__text">Новое позиционирование и <br>ребрендинг компании</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hystmodal ap-modal ap-team-modal" id="teamCardModal" aria-hidden="true">
+            <div class="hystmodal__wrap">
+              <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <div class="ap-modal__content">
+                      <button class="btn btn--icon btn--blue ap-modal__close" type="button" data-hystclose><span class="btn__icon">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#close"></use>
+                          </svg></span>
+                      </button>
+                  <div class="ap-team-modal__photo"><img src="img/about_page/employee_photo.png" alt="employee"></div>
+                  <div class="ap-team-modal__title">История о том, как попал на работу в SkyFish</div>
+                  <div class="ap-team-modal__text"> 
+                    <p>Иван был обычным парнем, который жил в небольшом городке и мечтал о карьере в крупной компании. Он всегда был любознательным и любил решать сложные задачи, поэтому решил попробовать свои силы в сфере логистики.</p>
+                    <p>Однажды он услышал о вакансии логиста в одной из крупнейших компаний страны. Иван решил отправить свое резюме и вскоре получил приглашение на собеседование.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hystmodal ap-modal ap-callback-modal" id="callbackModal" aria-hidden="true">
+            <div class="hystmodal__wrap">
+              <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <div class="ap-modal__content">
+                      <button class="btn btn--icon btn--blue ap-modal__close" type="button" data-hystclose><span class="btn__icon">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#close"></use>
+                          </svg></span>
+                      </button>
+                  <form class="ap-callback-modal__form callback-form" action="#" novalidate data-validate>
+                    <div class="callback-form__content">
+                      <div class="callback-form__title">ОСТАЛИСЬ ВОПРОСЫ?<br>НАПИШИТЕ ИЛИ ЗАКАЖИТЕ ЗВОНОК</div>
+                          <label class="input callback-form__input">
+                            <input class="input__input" type="text" name="name" placeholder="Имя">
+                          </label>
+                          <label class="input callback-form__input">
+                            <input class="input__input" type="tel" name="phone" placeholder="Телефон*" required="" data-v-name="phone" data-is-tel="true">
+                          </label>
+                          <label class="input callback-form__input">
+                            <input class="input__input" type="email" name="email" placeholder="Почта*" required="" data-v-name="email">
+                          </label>
+                          <label class="input callback-form__input">
+                            <input class="input__input" type="text" name="comment" placeholder="Комментарий">
+                          </label>
+                          <label class="input input--checkbox callback-form__input">
+                            <input class="input__input" type="checkbox" name="checkbox" required="" data-v-name="checkbox">
+                            <div class="input__fake"></div>
+                            <div class="input__text">Согласие на обработку персональных данных и получение рекламных рассылок</div>
+                          </label>
+                    </div>
+                        <button class="btn btn--small btn--blue callback-form__btn" type="submit"><span class="btn__text">Отправить</span><span class="btn__icon">
+                            <svg>
+                              <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                            </svg></span>
+                        </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer class="site-footer ap-footer">
+      <div class="ap-footer__container">
+        <div class="ap-footer__left">
+          <div class="ap-footer__logo"> <img src="../../../img/logo.png" alt="logo"></div>
+          <div class="ap-footer__text">Понимаем море,слышим людей</div>
+              <button class="btn btn--big btn--blue " type="button" data-hystmodal="#callbackModal"><span class="btn__text">Заказать звонок</span><span class="btn__icon">
+                  <svg>
+                    <use xlink:href="img/sprites/sprite.svg#arrow_btn"></use>
+                  </svg></span>
+              </button>
+        </div>
+        <div class="ap-footer__right">
+          <div class="ap-footer__section footer-section">
+            <div class="footer-section__name">Каталог</div>
+            <div class="footer-section__links"> <a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Рыба охлажденная</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Рыба свежемороженая</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Филе охлажденное</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Филе свежемороженое</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Морепродукты</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Субпродукты</span></a>
+            </div>
+          </div>
+          <div class="ap-footer__section footer-section">
+            <div class="footer-section__name">О компании</div>
+            <div class="footer-section__links"> <a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Производство</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Склад и логистика</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Мы в социуме</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Карьера в SKY FISH</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Наша команда</span></a>
+            </div>
+          </div>
+          <div class="ap-footer__section footer-section">
+            <div class="footer-section__name">А ещё ...</div>
+            <div class="footer-section__links"> <a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Контакты</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Личный кабинет</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Документы</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Новости</span></a><a class="btn btn--link btn--transparent footer-section__link" href="javascript:void(0);"><span class="btn__text">Вопросы и ответы</span></a>
+            </div>
+          </div>
+          <div class="ap-footer__contacts footer-cotacts">
+            <div class="footer-cotacts__social"><a class="btn btn--icon btn--transparent " href="javascript:void(0);"><span class="btn__icon">
+                      <svg>
+                        <use xlink:href="img/sprites/sprite.svg#telegram"></use>
+                      </svg></span></a><a class="btn btn--icon btn--transparent " href="javascript:void(0);"><span class="btn__icon">
+                      <svg>
+                        <use xlink:href="img/sprites/sprite.svg#vk"></use>
+                      </svg></span></a>
+            </div>
+            <div class="footer-cotacts__contacts"><span>info@skyfish.ru</span><span>+7 (4922) 52-12-33</span></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

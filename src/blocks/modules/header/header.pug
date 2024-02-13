@@ -1,1 +1,11 @@
-header.site-header header
+header.site-header.ap-header(data-anim-name="header")
+    .ap-container.ap-header__container
+        +btn({
+            classes: 'ap-header__btn',
+            tag: 'button',
+            buttonType: 'button',
+            vMode: 'link',
+            text: 'Заказать звонок',
+            icon: 'false',
+            cMode: 'transparent',
+        })(data-hystmodal="#callbackModal")

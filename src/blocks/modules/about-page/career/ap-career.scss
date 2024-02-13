@@ -1,0 +1,37 @@
+.ap-career {
+    padding: vw(814) 0 vw(29);
+    background-image: url("../../../../img/about_page/ap_career_bg.png");
+    background-size: cover;
+    &__info {
+        background-color: $c-white;
+        background-image: url("../../../../img/about_page/ap_waves_light.png");
+        background-size: vw(966) auto;
+        background-repeat: no-repeat;
+        background-position: right 0 top 0;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__title {
+        max-width: vw(440);
+        font-size: vw(82);
+        font-weight: 500;
+        line-height: 0.97;
+        color: $c-dark-bg;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        flex-basis: 100%;
+        margin-top: vw(96);
+    }
+    &__text {
+        max-width: vw(535);
+        font-size: vw(32);
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: -0.01em;
+        color: $c-dark-bg;
+        opacity: 60%;
+    }
+}

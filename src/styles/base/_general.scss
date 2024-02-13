@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 html,
 body {
+    font-family: 'Commissioner', sans-serif;
 	height: 100%;
 }
 body{
@@ -15,3 +16,8 @@ body{
     width: 100%;
     flex-grow: 1;
 }
+
+/*[data-anim-section] {
+    max-height: 100vh !important;
+    overflow-y: hidden;
+}*/

@@ -1,0 +1,6 @@
+mixin title(tag='h2', name='Заголовок')
+    case tag
+        when 'h1'
+            h1(class!=attributes.class)&attributes(attributes)= name
+        when 'h2'
+            h2(class!=attributes.class)&attributes(attributes)= name

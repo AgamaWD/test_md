@@ -1,0 +1,31 @@
+-
+    const defaultBreadCrumbsProps = {
+        classes: '',
+        items: [
+            {
+                name: 'Главная',
+                link: '#'
+            },
+            {
+                name: 'О компании',
+                link: '#'
+            }
+        ]
+    }
+
+mixin breadcrumbs(props = defaultBreadCrumbsProps)
+    -
+        const checkProps = {
+            classes: props.classes ? props.classes : defaultBreadCrumbsProps.classes,
+            items: props.items ? props.items : defaultBreadCrumbsProps.items,
+        }
+
+    .breadcrumbs(class=checkProps.classes)
+        .container
+            ul.breadcrumbs__list.list-reset
+                each val, index in checkProps.items
+                    li.breadcrumbs__item(class= (index === checkProps.items.length - 1) ? "breadcrumbs__item--current" : "")
+                        if index === checkProps.items.length - 1
+                            span= val.name
+                        else
+                            a(href=`${val.link}`)= val.name + " /"

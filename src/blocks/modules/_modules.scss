@@ -1,2 +1,20 @@
 @import "header/header";
 @import "footer/footer";
+
+//blocks
+@import "ap-advantages-card/ap-advantages-card.scss";
+@import "ap-team-card/ap-team-card.scss";
+
+//about page sections
+@import "about-page/main-screen/ap-main-screen.scss";
+@import "about-page/history/ap-history.scss";
+@import "about-page/advantages/ap-advantages.scss";
+@import "about-page/divided/ap-divided.scss";
+@import "about-page/career/ap-career.scss";
+@import "about-page/team/ap-team.scss";
+@import "about-page/offer/ap-offer.scss";
+
+//about page modals
+@import "about-page/history-modal/ap-history-modal.scss";
+@import "about-page/team-modal/ap-team-modal.scss";
+@import "about-page/callback-modal/ap-callback-modal.scss";

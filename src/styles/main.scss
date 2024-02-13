@@ -10,5 +10,11 @@
 @import "base/fonts";
 @import "base/general";
 
+//about page classes
+@import "base/classes";
+
+// UI компоненты
+@import "../blocks/components/components";
+
 // БЭМ-блоки
 @import "../blocks/modules/modules";

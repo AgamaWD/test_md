@@ -1,0 +1,28 @@
+.ap-team {
+    padding: vw(33) 0 vw(228);
+    background-color: $c-white;
+    &__title {
+        max-width: vw(680);
+        font-size: vw(82);
+        font-weight: 500;
+        line-height: 0.97;
+        color: $c-dark-bg;
+        text-transform: uppercase;
+    }
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin-top: vw(46);
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        &--1 {
+            margin-bottom: vw(423);
+        }
+        &--3 {
+            margin-bottom: vw(175);
+        }
+    }
+}

@@ -1,0 +1,7 @@
+
+mixin ap-modal(modalId="myModal", modalClass)
+    .hystmodal.ap-modal(id=modalId class=modalClass aria-hidden="true")
+        .hystmodal__wrap
+            .hystmodal__window(role="dialog" aria-modal="true")
+                .ap-modal__content
+                    block

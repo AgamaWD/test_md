@@ -1,0 +1,45 @@
+-
+    const defaultApTeamCardProps = {
+        classes: '',
+        bgColor: "black",
+        name: 'Елецкий Андрей',
+        position: 'Генеральный директор',
+        btn: {
+            tag: 'button',
+            vMode: 'icon',
+            cMode: 'blue'
+        }
+    }
+
+
+
+mixin ap-team-card(props = defaultApTeamCardProps)
+    -
+        const checkProps = {
+            classes: props.classes ? props.classes : defaultApTeamCardProps.classes,
+            bgColor: props.bgColor ? props.bgColor : defaultApTeamCardProps.bgColor,
+            name: props.name ? props.name : defaultApTeamCardProps.name,
+            position: props.position ? props.position : defaultApTeamCardProps.position,
+            btn: props.btn ? props.btn : defaultApTeamCardProps.btn,
+        }
+
+    .ap-team-card(class= 'ap-team-card--'+checkProps.bgColor)
+        .ap-team-card__name= checkProps.name
+        .ap-team-card__position= checkProps.position
+        .ap-team-card__photo 
+            img(src="img/about_page/employee_photo.png" alt=checkProps.name)
+        .ap-team-card__flexblock 
+            .ap-team-card__contacts 
+                .ap-team-card__phone.contact
+                    .contact__icon
+                        svg
+                            use(xlink:href=`img/sprites/sprite.svg#envelope`)
+                    .contact__text +7 (4922) 44-11-11
+                .ap-team-card__email.contact
+                    .contact__icon
+                        svg
+                            use(xlink:href=`img/sprites/sprite.svg#handset`)
+                    .contact__text log@skyfish.ru
+            +btn(checkProps.btn)(data-hystmodal="#teamCardModal")
+
+

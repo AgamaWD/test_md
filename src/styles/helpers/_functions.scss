@@ -1,3 +1,7 @@
 @function rem($px) {
     @return ($px / 16) +rem;
 }
+
+@function vw($px, $vw: 1920) {
+    @return ($px / ($vw / 100)) +vw;
+}
